@@ -1,0 +1,58 @@
+.jumbotron {
+  text-align: center;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+//class selector
+.favourite-grid{
+  
+  justify-content: center;
+
+  div {
+    text-align: center;
+
+	border: 2px solid grey;
+  }
+
+  // For most phones in vertical mode 
+  @media screen and (max-width: 575px) {
+	div {
+	  background-color: pink;
+	}
+  }
+
+  // For most phones in landscape mode and iPad in vertical mode
+  @media screen and (min-width: 576px) and (max-width: 767px) {
+	div {
+	  background-color: yellow;
+	}
+  }
+
+  // For iPad in landscape mode and laptops
+  @media screen and (min-width: 768px) {
+	div {
+	  background-color: lightgreen;
+	}
+  }
+
+  // For desktops
+  @media screen and (min-width: 1200px) {
+	div {
+	  background-color: lightgrey;
+	}
+  } 
+
+}
+
+
+// id selector
+#profile-pic{
+  // Do not scale the image
+  object-fit: none;
+  // Center the image within the element
+  object-position: center;
+  width: 100%;
+  max-height: 400px;
+  margin-bottom: 1rem;
+}

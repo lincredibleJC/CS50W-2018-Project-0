@@ -1,0 +1,43 @@
+.jumbotron {
+  text-align: center;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.favourite-grid {
+  justify-content: center;
+}
+.favourite-grid div {
+  text-align: center;
+  border: 2px solid grey;
+}
+@media screen and (max-width: 575px) {
+  .favourite-grid div {
+    background-color: pink;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .favourite-grid div {
+    background-color: yellow;
+  }
+}
+@media screen and (min-width: 768px) {
+  .favourite-grid div {
+    background-color: lightgreen;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .favourite-grid div {
+    background-color: lightgrey;
+  }
+}
+
+#profile-pic {
+  object-fit: none;
+  object-position: center;
+  width: 100%;
+  max-height: 400px;
+  margin-bottom: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
