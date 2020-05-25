@@ -4,30 +4,36 @@
   padding-bottom: 10rem;
 }
 
-.favourite-grid {
+.favourite-container {
   justify-content: center;
 }
-.favourite-grid div {
+.favourite-container h2, .favourite-container h3, .favourite-container p {
+  text-align: center;
+}
+.favourite-container h2 {
+  color: red;
+}
+.favourite-container div div {
   text-align: center;
   border: 2px solid grey;
 }
 @media screen and (max-width: 575px) {
-  .favourite-grid div {
+  .favourite-container div div {
     background-color: pink;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
-  .favourite-grid div {
+  .favourite-container div div {
     background-color: yellow;
   }
 }
 @media screen and (min-width: 768px) {
-  .favourite-grid div {
+  .favourite-container div div {
     background-color: lightgreen;
   }
 }
 @media screen and (min-width: 1200px) {
-  .favourite-grid div {
+  .favourite-container div div {
     background-color: lightgrey;
   }
 }
